@@ -12,12 +12,6 @@ if __name__ == "__main__":
     f = open(tempFilePath, "r+")
     f.seek(0)
     f.truncate()
-    f.write('Blue 1')
-    f.flush()
-    f.seek(0)
-    f.truncate()
-    f.write('Red 2')
-    f.flush()
     
     print("Connected! Waiting for notes...")
     while True:
